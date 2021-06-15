@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { DittoProvider, Ditto } from 'ditto-react-2'
 import source from './ditto/text.json';
 
