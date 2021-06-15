@@ -4,26 +4,23 @@ import source from './ditto/text.json';
 const App = () => {
   return (
     <DittoProvider source={source}>
-      <Page /> 
-    </DittoProvider>
-  )
-}
-
-const Page = () => {
-  return (
-    <div>
       <Ditto 
-        projectId="project_609c2013654b7400c681310e"
-        textId="text_609c20134107df0099db7bc6"
+        projectId="project_606652b903907b0113e329a6"
+        textId="text_606652bae02e5dfefcb4398a"
       />
       <Ditto 
-        projectId="project_609c2013654b7400c681310e"
-        frameId="frame_609c20134107df0099db7bc0"
-        blockId="heading"
+        projectId="project_606652b903907b0113e329a6"
+        frameId="frame_606652bce02e5dfefcb439b0"
       >
-        {(value) => Object.keys(value).map(id => <p key={id}>{value[id]}</p>)}
+        {
+          (frame) =>  Object
+            .keys(frame.otherText)
+            .map(textId => 
+              <p key={textId}>{frame.otherText[textId]}</p>
+            )
+        }
       </Ditto>
-    </div>
+    </DittoProvider>
   )
 }
 

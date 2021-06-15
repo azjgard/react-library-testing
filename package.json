@@ -1,10 +1,26 @@
 {
-  "name": "@jordin/react-library-testing",
-  "version": "1.0.1",
-  "description": "",
-  "author": "azjgard",
+  "name": "ditto-react",
+  "version": "0.0.4",
+  "description": "React SDK for using product copy from Ditto in development.",
+  "author": "Ditto Tech Inc.",
   "license": "MIT",
-  "repository": "azjgard/react-library-testing",
+  "bugs": {
+    "url": "https://github.com/dittowords/ditto-react/issues"
+  },
+  "homepage": "https://github.com/dittowords/ditto-react#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dittowords/ditto-react.git"
+  },
+  "keywords": [
+    "react",
+    "ditto",
+    "dittowords",
+    "copy",
+    "microcopy",
+    "product",
+    "react-app"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

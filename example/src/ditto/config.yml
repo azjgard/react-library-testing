@@ -1,7 +1,3 @@
 projects:
-  - name: '[JO TEST] variants 2'
-    id: 609c9fb125c2af382ba75c52
-  - name: NUX Onboarding
-    id: 609c2013654b7400c681310e
-  - name: NUX - Onboarding Flow
-    id: 60aeaa5aa880f90187337bf9
+  - name: Dittobnb (Ditto Sample) (Community)
+    id: 606652b903907b0113e329a6
