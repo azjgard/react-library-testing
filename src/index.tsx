@@ -169,7 +169,7 @@ export const Ditto = (props: DittoProps) => {
   }
 }
 
-export const DittoProvider = ({ children, source }) => {
+const DittoProvider = ({ children, source }) => {
   return (
     <DittoContext.Provider value={source}>
       {children}
@@ -177,3 +177,4 @@ export const DittoProvider = ({ children, source }) => {
   )
 }
 
+export default DittoProvider;

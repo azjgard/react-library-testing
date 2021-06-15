@@ -1,10 +1,10 @@
 {
-  "name": "ditto-react-2",
-  "version": "1.0.0",
+  "name": "@jordin/react-library-testing",
+  "version": "1.0.1",
   "description": "",
   "author": "azjgard",
   "license": "MIT",
-  "repository": "azjgard/ditto-react-2",
+  "repository": "azjgard/react-library-testing",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
